@@ -1,0 +1,42 @@
+html {
+  background: black;
+}
+
+h1, p {
+  color: white;
+}
+
+#link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#group {
+  border: 2px solid white;
+  height: fit-content;
+  font-size: 30px;
+  position: relative;
+  top: 40vh;
+  text-align: center;
+  right: 10vw;
+}
+
+
+#header h1 {
+  font-size:40px;
+  text-align:center;
+  display:inline-block;
+  position:relative;
+  width:100%;
+}
+
+#bio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#bio > div {
+  border: 2px solid white;
+  text-align: center;
+}
+
