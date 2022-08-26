@@ -7,12 +7,15 @@ header div {
     display: flex; 
     justify-content: space-between;
     margin: 10px; 
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 header div h1 {
     margin: 0; 
-    margin-left: 15px
+    margin-left: 15px;
+    font-family: 'Rubik Iso', cursive; 
+    font-size: 3rem ;
+    font-weight: 300;
 }
 
 
