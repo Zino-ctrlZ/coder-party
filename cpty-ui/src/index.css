@@ -5,7 +5,6 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	display: table-cell;
 	vertical-align: middle;
 
 	-ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -23,10 +22,21 @@ body {
 }
 
 html {
-	display: table;
 	margin: auto;
 }
+@media (min-width: 1500px), (min-height: 1300px) {
+	html {
+		display: table;
+	}
 
+	body {
+		display: table-cell;
+	}
+
+	div .screen--container {
+		margin-bottom: 18em;
+	}
+}
 .screen--container {
 	max-width: 1150px;
 	max-height: 750px;

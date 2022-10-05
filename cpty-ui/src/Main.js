@@ -1,5 +1,6 @@
 import React from 'react';
-import './hero.css';
+
+import './main.css';
 import character1 from '../src/media/3d/girl-with-bird.png';
 import character2 from '../src/media/3d/black-girl-skipping.png';
 import character3 from '../src/media/3d/girl-sitting.png';

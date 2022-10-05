@@ -17,23 +17,7 @@
 	width: 637px;
 } */
 
-.hero--text-block {
-	grid-column: 2;
-	align-self: center;
-}
-
-.hero--text-block {
+.hero--subtitle {
+	max-width: 608px;
 	text-align: center;
-}
-
-.hero--btn {
-	width: 205px;
-	height: 54px;
-	background: #faeb20;
-	border: 0px;
-	border-radius: 15px;
-	color: #87ceeb;
-	line-height: 24px;
-	font-weight: 575;
-	font-size: 20px;
 }
