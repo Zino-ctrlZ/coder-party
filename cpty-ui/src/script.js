@@ -1,4 +1,3 @@
-var characters = document.getElementsByClassName('main--characters');
 var characterList = [
 	{ src: '../media/3d/girl-with-bird.pn ', id: 'character1' },
 	{ src: '../media/3d/black-girl-skipping.png', id: 'character2' },
@@ -9,3 +8,18 @@ var characterList = [
 	{ src: '../media/3d/man-in-shorts.png', id: 'character7' },
 	{ src: '../media/3d/girl-on-tree.png', id: 'character8' },
 ];
+
+function addCharacter() {
+	var characters = document.getElementsByClassName('main--characters');
+	const BREAKPOINT = 1152;
+	if (window.innerWidth >= BREAKPOINT) {
+		for (let index = 0; index < characterList.length; index++) {
+			var character = document.createElement('img');
+			character.src = characterList[index].src;
+			character.setAttribute('id', `${characterList[index].id}`);
+			characters.appendChild(character);
+		}
+	}
+}
+
+window.addEventListener('resize', addCharacter);
