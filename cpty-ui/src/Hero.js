@@ -1,13 +1,22 @@
 import React from 'react';
 import './hero.css';
-import team from './media/teamwork.png';
-import logo from '../src/media/3d/coder-party.png';
-
+import regularLogo from '../src/media/3d/coder-party.png';
+import largeLogo from '../src/media/3d/coder-party-large.png';
+import mobileLogo from '../src/media/3d/coder-party-mobile.png';
 const Hero = () => {
+	const screen = window.innerWidth;
+	let logo;
+	if (screen > 1500) {
+		logo = largeLogo;
+	} else if (screen < 500) {
+		logo = mobileLogo;
+	} else {
+		logo = regularLogo;
+	}
 	return (
 		<div className='hero'>
 			<div className='hero--img'>
-				<img src={logo} alt='coder party' />
+				<img id='logo' src={logo} alt='coder party' />
 			</div>
 			<p className='hero--subtitle'>
 				an environment dedicated to help young computer science majors make that
