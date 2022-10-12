@@ -1,8 +1,8 @@
 import React from 'react';
 import './hero.css';
-import regularLogo from '../src/media/3d/coder-party.png';
-import largeLogo from '../src/media/3d/coder-party-large.png';
-import mobileLogo from '../src/media/3d/coder-party-mobile.png';
+import regularLogo from '../src/media/3d/coder-party-755w.png';
+import largeLogo from '../src/media/3d/coder-party-1025w.png';
+import mobileLogo from '../src/media/3d/coder-party-311w.png';
 const Hero = () => {
 	const screen = window.innerWidth;
 	let logo;

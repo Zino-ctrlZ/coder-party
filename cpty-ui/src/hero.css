@@ -22,11 +22,6 @@
 	text-align: center;
 }
 
-#logo {
-	background-image: url('../src/media/3d/coder-party.png');
-	background-size: 100% 100%;
-}
-
 /* @media (min-width: 1500px), (min-height: 1300px) {
 	#logo {
 		background-image: url('../src/media/3d/coder-party-large.png');
