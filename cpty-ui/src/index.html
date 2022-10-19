@@ -5,67 +5,53 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="styles.css" />
-		<script src="scripts.js"></script>
+		<script src="./script.js"></script>
 		<title>Coder Party</title>
 	</head>
 	<body>
-		<header>
-			<div class="container--header">
-				<nav>
-					<ul>
-						<li>
-							<a class="btn--nav from-top" href="#"> Home </a>
-						</li>
-						<li>
-							<a class="btn--nav from-top" href="#"> Community </a>
-						</li>
-						<li>
-							<a class="btn--nav from-top" href="#"> About Us </a>
-						</li>
-					</ul>
-				</nav>
+		<div class="screen-container">
+			<header>
+				<div class="container--header">
+					<nav>
+						<ul>
+							<li>
+								<a class="btn--nav from-top" href="#"> Home </a>
+							</li>
+							<li>
+								<a class="btn--nav from-top" href="#"> Community </a>
+							</li>
+							<li>
+								<a class="btn--nav from-top" href="#"> About Us </a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="line"></div>
+			</header>
+			<div class="hero">
+				<div class="hero--img">
+					<img
+						id="logo"
+						srcset="
+							../media/3d/coder-party-311w.png   311w,
+							../media/3d/coder-party-755w.png   755w,
+							../media/3d/coder-party-1025w.png 1025w
+						"
+						sizes="(max-width: 769px) 311px, (max-width: 1599px) 755px, (min-width: 1600px) 1025px"
+						src="../media/3d/coder-party-755w.png"
+						alt="coder party"
+					/>
+				</div>
+				<p class="hero--subtitle">
+					an environment dedicated to help young computer science majors make
+					that next step in their developer journey
+				</p>
 			</div>
-			<div class="line"></div>
-		</header>
-		<div class="hero">
-			<div class="hero--img">
-				<img
-					id="logo"
-					srcset="
-						../media/3d/coder-party-311w.png   311w,
-						../media/3d/coder-party-755w.png   755w,
-						../media/3d/coder-party-1025w.png 1025w
-					"
-					sizes="(max-width: 769px) 311px, (max-width: 1599px) 755px, (min-width: 1600px) 1025px"
-					src="../media/3d/coder-party-755w.png"
-					alt="coder party"
-				/>
+			<div class="main">
+				<button class="btn main--btn">Join the Party</button>
+				<div id="main--characters"></div>
+				<div class="line"></div>
 			</div>
-			<p class="hero--subtitle">
-				an environment dedicated to help young computer science majors make that
-				next step in their developer journey
-			</p>
-		</div>
-		<div class="main">
-			<button class="btn main--btn">Join the Party</button>
-			<div class="main--characters">
-				<img id="character1" src="{character1}" alt="" />
-
-				<img id="character2" src="{character2}" alt="" />
-
-				<img id="character3" src="{character3}" alt="" />
-
-				<img id="character4" src="{character4}" alt="" />
-
-				<img id="character5" src="{character5}" alt="" />
-
-				<img id="character6" src="{character6}" alt="" />
-
-				<img id="character7" src="{character7}" alt="" />
-
-				<img id="character8" src="{character8}" alt="" />
-			</div>
-			<div class="line"></div>
 		</div>
 	</body>
 </html>

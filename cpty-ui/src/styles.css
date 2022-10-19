@@ -24,7 +24,7 @@ body {
 html {
 	margin: auto;
 }
-@media (min-width: 1599px), (min-height: 1300px) {
+@media (min-width: 1200px), (min-height: 1300px) {
 	html {
 		display: table;
 	}
@@ -35,6 +35,51 @@ html {
 
 	div .screen--container {
 		margin-bottom: 18em;
+	}
+}
+@media (min-width: 770px) {
+	#main--characters #character1 {
+		width: 220px;
+		top: 10px;
+	}
+
+	#main--characters #character2 {
+		left: -108px;
+		top: 10px;
+	}
+
+	#main--characters #character3 {
+		left: -174px;
+		top: 66px;
+		z-index: 1;
+	}
+
+	#main--characters #character4 {
+		left: -205px;
+	}
+
+	#main--characters #character5 {
+		left: -260px;
+		top: 26px;
+	}
+
+	#main--characters #character6 {
+		left: 717px;
+		top: -195px;
+	}
+
+	#main--characters #character7 {
+		left: 667px;
+		top: -203px;
+	}
+
+	#main--characters #character8 {
+		left: 567px;
+		top: -169px;
+	}
+
+	.main .line {
+		top: -215px;
 	}
 }
 .screen--container {
@@ -204,55 +249,15 @@ from top */
 	margin: auto;
 	width: 95%;
 	position: relative;
-	top: -215px;
 }
 
 .main--characters {
 	position: relative;
 }
 
-.main--characters img {
+#main--characters img {
 	position: relative;
-}
-
-.main--characters #character1 {
-	width: 220px;
-	top: 10px;
-}
-
-.main--characters #character2 {
-	left: -108px;
-	top: 10px;
-}
-
-.main--characters #character3 {
-	left: -174px;
-	top: 66px;
-	z-index: 1;
-}
-
-.main--characters #character4 {
-	left: -205px;
-}
-
-.main--characters #character5 {
-	left: -260px;
-	top: 26px;
-}
-
-.main--characters #character6 {
-	left: 717px;
-	top: -195px;
-}
-
-.main--characters #character7 {
-	left: 667px;
-	top: -203px;
-}
-
-.main--characters #character8 {
-	left: 567px;
-	top: -169px;
+	margin: 2rem;
 }
 
 .main--btn {
