@@ -13,8 +13,6 @@ console.log('script running');
 function addCharacter() {
 	var characters = document.getElementById('main--characters');
 	const BREAKPOINT = 770;
-	var characters = document.getElementById('main--characters');
-	const BREAKPOINT = 770;
 	if (window.innerWidth >= BREAKPOINT) {
 		if (characters.children.length <= 0) {
 			for (let index = 0; index < characterList.length; index++) {
