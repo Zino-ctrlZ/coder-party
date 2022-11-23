@@ -9,37 +9,48 @@
 		<title>Coder Party</title>
 	</head>
 	<body>
-		<header>
-			<div class="container--header">
-				<nav>
-					<ul>
-						<li>
-							<a class="btn--nav from-top" href="#"> Home </a>
-						</li>
-						<li>
-							<a class="btn--nav from-top" href="#"> Community </a>
-						</li>
-						<li>
-							<a class="btn--nav from-top" href="#"> About Us </a>
-						</li>
-					</ul>
-				</nav>
+		<div class="screen-container">
+			<header>
+				<div class="container--header">
+					<nav>
+						<ul>
+							<li>
+								<a class="btn--nav from-top" href="#"> Home </a>
+							</li>
+							<li>
+								<a class="btn--nav from-top" href="#"> Community </a>
+							</li>
+							<li>
+								<a class="btn--nav from-top" href="#"> About Us </a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="line"></div>
+			</header>
+			<div class="hero">
+				<div class="hero--img">
+					<img
+						id="logo"
+						srcset="
+							../media/3d/coder-party-311w.png   311w,
+							../media/3d/coder-party-755w.png   755w,
+							../media/3d/coder-party-1025w.png 1025w
+						"
+						sizes="(max-width: 769px) 311px, (max-width: 1599px) 755px, (min-width: 1600px) 1025px"
+						src="../media/3d/coder-party-755w.png"
+						alt="coder party"
+					/>
+				</div>
+				<p class="hero--subtitle">
+					an environment dedicated to help young computer science majors make
+					that next step in their developer journey
+				</p>
 			</div>
-			<div class="line"></div>
-		</header>
-		<div class="hero">
-			<div class="hero--img">
-				<img
-					id="logo"
-					srcset="
-						../media/3d/coder-party-311w.png   311w,
-						../media/3d/coder-party-755w.png   755w,
-						../media/3d/coder-party-1025w.png 1025w
-					"
-					sizes="(max-width: 769px) 311px, (max-width: 1599px) 755px, (min-width: 1600px) 1025px"
-					src="../media/3d/coder-party-755w.png"
-					alt="coder party"
-				/>
+			<div class="main">
+				<button class="btn main--btn">Join the Party</button>
+				<div id="main--characters"></div>
+				<div class="line"></div>
 			</div>
 			<p class="hero--subtitle">
 				an environment dedicated to help young computer science majors make that
