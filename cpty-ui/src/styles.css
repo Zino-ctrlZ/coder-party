@@ -169,7 +169,7 @@ from top */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-bottom: 9rem;
+	margin-bottom: 7rem;
 }
 
 .hero--subtitle {
@@ -184,7 +184,11 @@ from top */
 	margin-top: 2rem;
 	align-items: center;
 }
-.main img {
+/* .main img {
+	width: 200px;
+} */
+
+.main #character {
 	width: 200px;
 }
 
@@ -206,11 +210,11 @@ from top */
 	position: relative;
 }
 
-.main--characters img {
+/* .main--characters img {
 	position: relative;
-}
+} */
 
-.main--characters #character1 {
+/* .main--characters #character1 {
 	width: 220px;
 	top: 10px;
 }
@@ -248,7 +252,7 @@ from top */
 .main--characters #character8 {
 	left: 567px;
 	top: -169px;
-}
+} */
 
 .main--btn {
 	background-color: #080808;
