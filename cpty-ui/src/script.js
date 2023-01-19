@@ -1,3 +1,27 @@
+//functionality for copy link input field
+document.querySelectorAll('.copy-link').forEach((copyLinkContainer) => {
+	console.log('hello world 36');
+	const inputField = copyLinkContainer.querySelector('.copy-link-input');
+	const copyButton = copyLinkContainer.querySelector('.copy-link-btn');
+	const copyButtonIcon = copyLinkContainer.querySelector('.copy-link-icon');
+	const checkMark = document.createElement('span');
+	checkMark.classList.add('material-symbols-outlined');
+	checkMark.innerHTML = 'done';
+
+	inputField.addEventListener('focus', () => inputField.select());
+	copyButton.addEventListener('click', () => {
+		const text = inputField.value;
+		navigator.clipboard.writeText(text);
+		//change icon
+		copyButton.removeChild(copyButtonIcon);
+		copyButton.appendChild(checkMark);
+		setTimeout(() => {
+			copyButton.removeChild(checkMark);
+			copyButton.appendChild(copyButtonIcon);
+		}, 300);
+	});
+});
+
 var characterList = [
 	{ src: '../media/3d/girl-with-bird.png ', id: 'character' },
 	{ src: '../media/3d/black-girl-skipping.png', id: 'character' },
