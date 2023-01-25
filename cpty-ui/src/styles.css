@@ -82,6 +82,9 @@ nav a {
 	color: #000;
 }
 
+nav ul {
+	padding-left: 0;
+}
 ul li {
 	display: inline;
 }
@@ -94,7 +97,7 @@ ul li {
 
 .btn--nav {
 	position: relative;
-	padding: 1rem 1rem;
+	padding: 0.5rem 1rem;
 	letter-spacing: 0.1rem;
 	margin-right: 0px;
 	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -180,9 +183,10 @@ from top */
 	margin-top: 2rem;
 	align-items: center;
 }
-/* .main img {
-	width: 200px;
-} */
+.main img {
+	width: 100%;
+	height: auto;
+}
 
 .main #character {
 	width: 200px;
@@ -209,50 +213,6 @@ from top */
 .main--characters {
 	position: relative;
 }
-
-/* .main--characters img {
-	position: relative;
-} */
-
-/* .main--characters #character1 {
-	width: 220px;
-	top: 10px;
-}
-
-.main--characters #character2 {
-	left: -108px;
-	top: 10px;
-}
-
-.main--characters #character3 {
-	left: -174px;
-	top: 66px;
-	z-index: 1;
-}
-
-.main--characters #character4 {
-	left: -205px;
-}
-
-.main--characters #character5 {
-	left: -260px;
-	top: 26px;
-}
-
-.main--characters #character6 {
-	left: 717px;
-	top: -195px;
-}
-
-.main--characters #character7 {
-	left: 667px;
-	top: -203px;
-}
-
-.main--characters #character8 {
-	left: 567px;
-	top: -169px;
-} */
 
 .main--btn {
 	background-color: #080808;

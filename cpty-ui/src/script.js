@@ -1,6 +1,5 @@
 //functionality for copy link input field
 document.querySelectorAll('.copy-link').forEach((copyLinkContainer) => {
-	console.log('hello world 36');
 	const inputField = copyLinkContainer.querySelector('.copy-link-input');
 	const copyButton = copyLinkContainer.querySelector('.copy-link-btn');
 	const copyButtonIcon = copyLinkContainer.querySelector('.copy-link-icon');
@@ -50,7 +49,10 @@ function addCharacter() {
 		character.src = characterList[randomIndex].src;
 		character.id = characterList[randomIndex].id;
 		characters.appendChild(character);
+	} else {
+		if (characters.children.length === 1) {
+		}
 	}
 }
 
-window.addEventListener('DOMContentLoaded', addCharacter);
+window.addEventListener('resize', addCharacter);
