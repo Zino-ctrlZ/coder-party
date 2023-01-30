@@ -4,9 +4,30 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Zino Onokpise" />
+		<link rel="icon" href="../media/3d/tab-logo0.png" />
 		<link rel="stylesheet" href="styles.css" />
-		<script src="./script.js"></script>
-		<title>Coder Party</title>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+
+		<script src="./script.js" defer></script>
+		<title>Coder Party - The right environent for a young developer</title>
+		<meta
+			name="description"
+			content="an environment dedicated to help young computer science majors make that next step in their developer journey"
+		/>
 	</head>
 	<body>
 		<header>
@@ -17,10 +38,24 @@
 							<a class="btn--nav from-top" href="#"> Home </a>
 						</li>
 						<li>
-							<a class="btn--nav from-top" href="#"> Community </a>
+							<a
+								class="btn--nav from-top"
+								href="https://discord.gg/RYJE7636"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Community
+							</a>
 						</li>
 						<li>
-							<a class="btn--nav from-top" href="#"> About Us </a>
+							<a
+								class="btn--nav from-top"
+								href="https://github.com/Zino-ctrlZ"
+								target="_blank"
+								rel="noreferrer"
+							>
+								About Us
+							</a>
 						</li>
 					</ul>
 				</nav>
@@ -47,8 +82,27 @@
 			</p>
 		</div>
 		<div class="main">
-			<button class="btn main--btn">Join the Party</button>
-			<div id="main--characters"></div>
+			<h3>JOIN THE DISCORD!</h3>
+			<div class="copy-link">
+				<input
+					type="text"
+					value="https://discord.gg/RYJE7636"
+					class="copy-link-input"
+					readonly
+				/>
+				<button type="button" class="copy-link-btn">
+					<span class="material-symbols-outlined copy-link-icon">
+						content_copy
+					</span>
+				</button>
+			</div>
+			<div id="main--characters">
+				<img
+					src="../media/3d/footer.png"
+					alt="8 people in 3d"
+					id="footer-img"
+				/>
+			</div>
 		</div>
 	</body>
 </html>
