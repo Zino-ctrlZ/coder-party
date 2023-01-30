@@ -33,6 +33,13 @@ html {
 		margin-bottom: 18em;
 	}
 }
+
+@media (max-width: 770px) {
+	body {
+		overflow: hidden;
+	}
+}
+
 .screen--container {
 	max-width: 1150px;
 	max-height: 750px;
@@ -174,6 +181,13 @@ from top */
 .hero--subtitle {
 	max-width: 608px;
 	text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+	div,
+	.hero {
+		margin-bottom: 0rem;
+	}
 }
 
 /* main */

@@ -49,10 +49,8 @@ function addCharacter() {
 		character.src = characterList[randomIndex].src;
 		character.id = characterList[randomIndex].id;
 		characters.appendChild(character);
-	} else {
-		if (characters.children.length === 1) {
-		}
 	}
 }
 
 window.addEventListener('resize', addCharacter);
+window.addEventListener('DOMContentLoaded', addCharacter);
