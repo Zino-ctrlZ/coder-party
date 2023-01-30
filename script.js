@@ -22,14 +22,14 @@ document.querySelectorAll('.copy-link').forEach((copyLinkContainer) => {
 });
 
 var characterList = [
-	{ src: 'cpty-ui/media/3d/girl-with-bird.png ', id: 'character' },
-	{ src: 'cpty-ui/media/3d/black-girl-skipping.png', id: 'character' },
-	{ src: 'cpty-ui/media/3d/girl-sitting.png', id: 'character' },
-	{ src: 'cpty-ui/media/3d/man-hands.png', id: 'character' },
-	{ src: 'cpty-ui/media/3d/boy-laptop.png', id: 'character' },
-	{ src: 'cpty-ui/media/3d/boy-red-ball.png', id: 'character' },
-	{ src: 'cpty-ui/media/3d/man-in-shorts.png', id: 'character' },
-	{ src: 'cpty-ui/media/3d/girl-on-tree.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/girl-with-bird.png ', id: 'character' },
+	{ src: './cpty-ui/media/3d/black-girl-skipping.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/girl-sitting.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/man-hands.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/boy-laptop.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/boy-red-ball.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/man-in-shorts.png', id: 'character' },
+	{ src: './cpty-ui/media/3d/girl-on-tree.png', id: 'character' },
 ];
 
 var mainFooterImg = { src: '../media/3d/footer.png', id: 'footer-img' };
