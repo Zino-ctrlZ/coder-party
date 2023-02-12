@@ -22,7 +22,6 @@ document.querySelectorAll('.copy-link').forEach((copyLinkContainer) => {
 });
 
 var characterList = [
-	{ src: './cpty-ui/media/3d/girl-with-bird.png ', id: 'character' },
 	{ src: './cpty-ui/media/3d/black-girl-skipping.png', id: 'character' },
 	{ src: './cpty-ui/media/3d/girl-sitting.png', id: 'character' },
 	{ src: './cpty-ui/media/3d/man-hands.png', id: 'character' },

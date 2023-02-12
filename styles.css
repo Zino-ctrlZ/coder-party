@@ -202,10 +202,6 @@ from top */
 	height: auto;
 }
 
-.main #character {
-	width: 200px;
-}
-
 .main ul {
 	overflow: auto;
 }
@@ -260,7 +256,7 @@ from top */
 }
 
 #character {
-	padding-top: 5rem;
+	padding-top: 2rem;
 }
 .copy-link {
 	display: flex;
